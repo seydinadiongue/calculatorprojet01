@@ -38,10 +38,10 @@ public class calculatorTest {
          int result= (int) calculator.divide(6,3);
          Assert.assertEquals(2,result);
     }
-    @Test(expected = ArithmeticException.class)
-    public void divideWiththrowExeption() {
-        calculator.divide(6,0);
-    }
+   // @Test(expected = ArithmeticException.class)
+  //  public void divideWiththrowExeption() {
+   //     calculator.divide(6,3);
+   // }
 
     @Test
     public void min() {
@@ -56,22 +56,5 @@ public class calculatorTest {
        
     }
 
-    @Test
-    public void minElement() {
-         int tab[]={
-                 2,4,6,7
-         };
-         int a=calculator.minElement(tab);
-         Assert.assertEquals(2,a);
 
-    }
-    @Test
-    public void maxElement(){
-         int tab[]={
-                 2,4,7,8
-         };
-         int a =calculator.maxElement(tab);
-         Assert.assertEquals(8,a);
-
-    }
 }
