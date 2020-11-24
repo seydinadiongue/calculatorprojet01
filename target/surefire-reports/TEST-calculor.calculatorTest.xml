@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="calculor.calculatorTest" time="0.078" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="calculor.calculatorTest" time="0.078" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="SN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\FATY\AppData\Local\Temp\surefire8716039279949161149\surefirebooter6392917497340641611.jar C:\Users\FATY\AppData\Local\Temp\surefire8716039279949161149 2020-11-23T22-56-40_525-jvmRun1 surefire7197535954488342649tmp surefire_04554077614523099885tmp"/>
+    <property name="sun.java.command" value="C:\Users\FATY\AppData\Local\Temp\surefire3477090887562766233\surefirebooter2450043979934085366.jar C:\Users\FATY\AppData\Local\Temp\surefire3477090887562766233 2020-11-24T11-06-52_881-jvmRun1 surefire5416334983319307452tmp surefire_08315654806043279049tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\FATY\faty\calculatorprojet\target\test-classes;C:\Users\FATY\faty\calculatorprojet\target\classes;C:\Users\FATY\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\FATY\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\FATY"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\FATY\AppData\Local\Temp\surefire8716039279949161149\surefirebooter6392917497340641611.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\FATY\AppData\Local\Temp\surefire3477090887562766233\surefirebooter2450043979934085366.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,10 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="divide" classname="calculor.calculatorTest" time="0"/>
-  <testcase name="max" classname="calculor.calculatorTest" time="0"/>
-  <testcase name="min" classname="calculor.calculatorTest" time="0"/>
-  <testcase name="sub" classname="calculor.calculatorTest" time="0"/>
+  <testcase name="sub" classname="calculor.calculatorTest" time="0.016"/>
   <testcase name="minus" classname="calculor.calculatorTest" time="0"/>
   <testcase name="multiply" classname="calculor.calculatorTest" time="0"/>
 </testsuite>
