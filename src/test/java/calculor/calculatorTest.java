@@ -61,7 +61,9 @@ public class calculatorTest {
         int max=calculator.max(2000,-2000);
         Assert.assertEquals(2000,max);
 
+
+
+
     }
 
-
-}
+    }
