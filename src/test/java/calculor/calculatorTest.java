@@ -40,6 +40,28 @@ public class calculatorTest {
     public void multiply() {
         Assert.assertEquals(4, calculator.multiply(2,2));
     }
+    @Test
+    public void divide() {
+        int result= (int) calculator.divide(6,3);
+        Assert.assertEquals(2,result);
+    }
+    // @Test(expected = ArithmeticException.class)
+    // public void divideWiththrowExeption() {
+    //    calculator.divide(6,0);
+    //}
+
+    @Test
+    public void min() {
+        int min=calculator.min(10,20);
+        if (min !=10) Assert.fail();
+    }
+
+    @Test
+    public void max() {
+        int max=calculator.max(2000,-2000);
+        Assert.assertEquals(2000,max);
+
+    }
 
 
 }
