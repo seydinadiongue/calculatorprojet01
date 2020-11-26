@@ -65,5 +65,24 @@ public class calculatorTest {
 
 
     }
+    @Test
+    public void minElement() {
+         int tab[]={
+              1,4,7,9
+         };
+         int a=calculator.minElement(tab);
+         Assert.assertEquals(1,a);
+
+    }
+
+    @Test
+    public void maxElement() {
+        int tab[]={
+                1,4,7,9
+        };
+        int a=calculator.maxElement (tab);
+        Assert.assertEquals(9,a);
+
+    }
 
     }
